@@ -2,7 +2,7 @@ name: Update assets (hourly)
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "47 */3 * * *"
   workflow_dispatch:
 
 permissions:
