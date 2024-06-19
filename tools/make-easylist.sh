@@ -2,6 +2,6 @@
 #
 # This script assumes a linux environment
 OUTPUT=$(echo $RANDOM)
-$OUTPUT > $OUTPUT
+echo $OUTPUT > $OUTPUT
 
 
